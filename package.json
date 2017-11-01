@@ -1,4 +1,11 @@
 {
+  "name": "easy-fullscreen",
+  "version": "0.1.0",
+  "description": "fullscreen api in a vendor agnostic wrapper",
+  "author": "Gary Yeap <contact@garyyeap.com>",
+  "license": "MIT",
+  "repository": "https://github.com/garyyeap/easy-fullscreen",
+  "main": "fullscreen.min.js",
   "scripts": {
     "build": "babel Fullscreen.js --out-file fullscreen.min.js"
   },
