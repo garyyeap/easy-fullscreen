@@ -1,13 +1,13 @@
 # easy-fullscreen: Fullscreen API wrapper
 
 ### API and Usage
-```
+```javascript
 import Fullscreen from 'easy-fullscreen';
 
 var fullscreenElement = doucument.getElementById('fullscreen-container');
 var fullscreenButton = document.getElementById('button');
 
-// check if fullscreen is enabled
+// check if fullscreen enabled
 if (Fullscreen.isEnabled) {
   fullscreenButton.onclick = function () {
     check if is in fullscreen mode
@@ -44,5 +44,5 @@ var onErrorHandler = function (e) {
 Fullscreen.on('error', onErrorHandler);
 
 // unsubscribe from fullscreen error event
-Fullscreen.off('change', onErrorHandler);
+Fullscreen.off('error', onErrorHandler);
 ```
