@@ -6,7 +6,6 @@
   "license": "MIT",
   "repository": "https://github.com/garyyeap/easy-fullscreen",
   "main": "./fullscreen.umd.min.js",
-  "module": "./Fullscreen.js",
   "jsnext:main": "./Fullscreen.js",
   "scripts": {
     "build": "babel Fullscreen.js --out-file fullscreen.umd.min.js"
