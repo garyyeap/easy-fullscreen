@@ -8,14 +8,13 @@
   "main": "./fullscreen.umd.min.js",
   "jsnext:main": "./Fullscreen.js",
   "scripts": {
-    "build": "babel Fullscreen.js --out-file fullscreen.umd.min.js"
+    "build": "babel Fullscreen.js --out-file fullscreen.umd.min.js --plugins=transform-es2015-modules-umd --presets=minify"
   },
   "typings": "./Fullscreen.d.ts",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
     "babel-preset-env": "^1.6.0",
-    "babel-preset-minify": "^0.2.0",
-    "babel-preset-stage-0": "^6.24.1"
+    "babel-preset-minify": "^0.2.0"
   }
 }
