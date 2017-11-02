@@ -9,6 +9,7 @@
   "scripts": {
     "build": "babel Fullscreen.js --out-file fullscreen.min.js"
   },
+  "typings": "./Fullscreen.d.ts",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
