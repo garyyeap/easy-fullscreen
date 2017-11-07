@@ -10,7 +10,7 @@ var fullscreenButton = document.getElementById('button');
 // check if fullscreen enabled
 if (Fullscreen.isEnabled) {
   fullscreenButton.onclick = function () {
-    check if is in fullscreen mode
+    // check if is in fullscreen mode
     if (Fullscreen.isFullscreen) {
       // exit fullscreen
       Fullscreen.exit();
